@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muj</title>
+</head>
+<body>
+    <h1> глобал муж ба локал муж</h1>
+</body>
+</html>
+<script>
+
+    const taxtOfBook = 0.1 // tatvar
+    let bookName = 'Nogoon nvden lam'; // nomiin ner
+    let price = 15000; // vndsen 
+    function getPrice(){
+        return price + price*taxtOfBook;
+    }
+    console.log(bookName + ' nomiin ner :' +getPrice());
+
+
+
+    
+    // local
+    function calculatePrice(){
+        let price = 20000;
+        return price * 0.01 + price;
+    }
+    console.log('nomiin ner :' +calculatePrice());
+    // garalt 20200
+    console.log('vndsen vne :' +price);
+
+</script>

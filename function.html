@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let calculateIson = false;
+    const pressPowerButton =() => {
+        if (calculateIson){
+            console.log('Тооны машин унтарлаа');
+            calculateIson = false;
+        }
+        else{
+            calculateIson = true;
+            console.log('тооны машин аслаа');
+            
+        }
+    }
+    pressPowerButton();
+    pressPowerButton();
+     const square = (inputNumber) =>{
+         console.log(inputNumber*inputNumber);
+         
+     }
+     square(5);
+// 2 toonii niilber oloh 
+const add = (a,b) =>{
+    const result = a+b;
+    return result;
+}
+console.log(add(200,6));
+console.log(square(3));
+
+const min = function (value3,value4) {
+    if(value3> value4){
+        return value4;
+    }
+    else{
+        return value3;
+    }
+}
+console.log("2 toonii baga n ");
+console.log(min(5,10));
+</script>

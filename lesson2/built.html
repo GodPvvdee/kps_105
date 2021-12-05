@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>built-in аргууд</title>
+    <h1>lesson2 js built functions</h1>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    console.log('javascript'.toUpperCase());// text-iig tomruuldag 
+    console.log('PYTHON'.toLowerCase());  // text-iig jijigrvvldeg
+    console.log('    javascriptjs'.trim()); // textiin hooson zaig n ustagdag 
+    console.log('Javascript'.startsWith('J')); // true 
+    console.log(Math.random()*4);  //0-1 sanamsargui too butsaadag 
+    console.log(Math.floor(Math.random()*4));// floor function n oorin bvhel tooruu horwuuldeg
+    console.log(Math.ceil(45.1));// toog hamgiin ih bvhel too ruu bvheldene
+    console.log(Math.floor(45.9)); // toog hamgiin baga bvhel too ruu bvheldene
+    console.log(Math.floor(45.1)); // toog hamgiin baga bvhel too ruu bvheldene
+                                         // хувьсагчид
+                 // const хувьсагчийг дараах байдалаар зарлана
+    const contentName = 'kps';
+    console.log(contentName);
+                 // garalt:kps
+
+    // contentName2 = 'css';
+                  // iet  хувьсагыийг зарлах
+                  let country = 'оху';
+    console.log(country);
+    // garalt оху
+    country = 'монгол';
+    console.log(country);
+                       // undefined хувьсагчийн төрөл
+    let varname;
+    console.log(varname);
+           //   temdegt mor zarlah
+           let animal = 'нохой';
+    console.log('Гэрийн тэжээвэр амьтан : ' + animal + ';');
+          // if/else ilerhiilel
+    let trafficLight = 'shar';
+    if(trafficLight === 'ulaan'){
+        console.log('zogs');
+    }
+    else if (trafficLight === 'shar'){
+        console.log('Anhaar!!!');
+    }
+    else if (trafficLight === 'nogoon'){
+        console.log('yw');
+    }
+    else {
+        console.log('Bolgoomjil.gerlen dohio ajillaagui');
+    }
+    //switch ilerhiilel
+    let coinName = 'IHC';
+    switch(coinName){
+        case 'IHC':console.log('ih coin');
+        break;
+        case 'SPC':console.log('store pay coin');
+        break;
+        case 'NFT':console.log('NFT coin');
+        break;
+        case 'URGUU':console.log('URGUU coin');
+        break;
+        default:console.log('iim coin baihguie');
+        break;
+    }
+     // Ternary operator
+     let isNightTime = true;
+    if(isNightTime){
+        console.log('gerlee asaa');
+    }
+    else{
+        console.log('gerlee untraa');
+    }
+      // deerh jishee bol if else 
+isNightTime ? console.log('gerlee asaa2'): console.log('gerlee untraa2');
+
+</script>
