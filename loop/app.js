@@ -1,25 +1,30 @@
 // var counter;
 // for (counter = 1; counter <= 10; counter++)
 // {
-// document.write(counter*counter + ":");
+// document.write(counter*counter + ":" );
 // }
+
+// garalt: 
+
 
                 // for loop example
                 
 // let states = ['dallas','boston','denver'];
-// for(let i = states.length-1; i>=0; i--){
+// for(let i = 0; i<=states.length-1; i++){
 //     console.log(states[i]);
 // }    
+
                     // double for loop example
 
 // let bookcase1 = ['Харри Поттер','Самар хатан'];
 // let bookcase2 = ['Bad blood','Харри Поттер'];
 // for(let i =0 ; i<bookcase1.length; i++){
+    
 //     for(let j=0; j<bookcase2.length;j++){
 //         if(bookcase1[i] === bookcase2[j]){
-//         console.log('Давхардсан ном: ' + bookcase1[i]);
-//     }
-//     }
+//             console.log('Давхардсан ном:' + bookcase1[i]);
+//         }
+//     }    
 // }
 
                         // IF ELSE  
@@ -53,7 +58,7 @@
                         // while
 //  let words  = 'Улаанбаатар хот, Монгол улс';
 //  let i =0;
-//  while('' !== words[i]){
+//  while(','!== words[i]){
 //      i++;
 //  }
 //  console.log('Эхний үгийн урт:' + i);
