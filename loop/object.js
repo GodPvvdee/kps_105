@@ -51,7 +51,7 @@ let objectB = {
 }
 objectB.print = objectA.print;
 console.log(objectB.print());
-// 
+// getter()                     setter()
 
 
 
