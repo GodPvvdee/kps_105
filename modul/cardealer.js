@@ -1,9 +1,2 @@
-import Car from './car.js';
-function displayInto(){
-    Car.typesOfCars.forEach(function(element){
-        console.log('форд ' + element.name);
-        console.log('одоогийн загвар ' + element.generation);
-        console.log('одоогийн загварын үйлдвэрлэгдсэн он ' + element.year);
-    })
-}
-displayInto();
+import cube from './car.js';
+console.log(cube(3)); // 27
